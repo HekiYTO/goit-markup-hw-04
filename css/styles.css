@@ -1,0 +1,374 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+.s-four-ots {
+    width: calc((100% - 48px) / 3);
+}
+
+body {
+
+    color: #434455;
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+}
+
+.s-two-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    height: 112px;
+    width: 264px;
+    border-radius: 4px;
+}
+
+.s-three-sl {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-four > .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-three > .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer > .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header > .container {
+    display: flex;
+    align-items: center;
+}
+
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.f2a {
+    display: block;
+    font-style: normal;
+    font-family: "Roboto", serif;
+    text-decoration: none;
+    text-transform: none;
+    color: #434455;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+.navheader {
+    align-items: center;
+    display: flex;
+}
+
+.liah {
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 24px 0;
+}
+
+.addresshead {
+display: flex;
+gap: 40px;
+
+}
+
+.container > .navheader {
+    margin-right: auto;
+}
+
+.fleader {
+    gap: 40px;  
+    display: flex;
+}
+
+.fleaderdva {  
+    color: #434455;
+    gap: 40px;
+    display: flex;
+}
+
+.logoheader {
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 76px;
+    font-weight: 700;
+    font-family: "Raleway", serif;
+    color: #4D5AE5;
+}
+
+.logoheader2 {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    }
+
+
+.section-one {
+    padding: 188px 0;
+    background-color: #2E2F42;
+    background-image: 
+    linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+    url(/images/background-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-one > .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one-mtext {
+    
+    margin: 0 auto 48px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 496px;
+}
+
+.section-one-button {
+    margin: 0 auto ;
+    display: block;
+    cursor: pointer;
+    height: 56px;
+    min-width: 169px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.section-three {
+    padding: 120px 0;
+    background-color: #F4F4FD;
+}
+
+.s-three-h{
+    color: #2E2F42;
+    margin-bottom: 72px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    
+}
+
+.s-three-ul {
+    gap: 24px;
+    display: flex;
+}
+
+.s-four-p {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #434455;
+}
+
+
+.s-two-p {
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 24px;
+   
+    text-align: left;
+    color: #434455;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.section-two {
+padding: 120px 0;
+}
+
+.s-two-li {
+    width: calc((100% - 72px) / 4);
+}
+
+.s-two-hdva {
+    color: #2E2F42;
+    font-family: "Roboto", serif;
+   
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.s-two-ul {
+    gap: 24px;
+    display: flex;
+}
+
+.s-three-p {
+font-family: Roboto;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+}
+
+.s-three-otctext {
+    padding: 32px 0;
+    font-size: 400;
+}
+
+.s-three-h-otc {
+    color: #2E2F42;
+    font-family: "Roboto", serif;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 8px
+}
+
+.s-four-h-tri {
+    color: #2E2F42;
+    font-family: "Roboto", serif;
+   
+    line-height: 1.2;
+    margin-bottom: 8px
+}
+
+.s-four-otctext {
+    border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    font-size: 400;
+    border-top: none;
+}
+
+.s-three-ots {
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+    background-color: #FFFFFF;
+}
+
+
+
+.s-four-h {
+    text-align: center;
+    font-size: 36px;
+    color: #2E2F42;
+    font-family: "Roboto", serif;
+   
+    line-height: 1.2;
+    margin-bottom: 72px;
+}
+
+.s-four-ul {
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.ftext {
+    padding-top: 100px;
+    padding-left: 150px;
+    width: 264px;
+}
+
+.ftext > p {
+color: #FFFFFF;
+
+}
+
+
+.logofooter-s {
+    color: #FFFFFF;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #2E2F42;
+}
+
+.p-footer {
+font-family: Roboto;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+    max-width: 264px;
+    color: #FFFFFF;
+}
+
+.section-four {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
+
+.logofooter  {
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-family: "Raleway", serif;
+    color: #4D5AE5;
+}
+
+.footer > .container {
+    display: block;
+}
