@@ -18,6 +18,12 @@ body {
     letter-spacing: 0.02em;
 }
 
+.s-three-ul-otc {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
 .s-two-svg {
     margin-bottom: 8px;
     display: flex;
