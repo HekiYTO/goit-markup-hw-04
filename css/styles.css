@@ -24,6 +24,11 @@ body {
     gap: 24px;
 }
 
+.s-three-li-sl {
+    width: 40px;
+    height: 40px;
+}
+
 .s-two-svg {
     margin-bottom: 8px;
     display: flex;
