@@ -111,7 +111,7 @@ body {
     background-color: #404bbf;
 }
 
-.s-three-a-sl::after {
+.s-three-a-sl:focus {
     background-color: #404bbf;
 }
 
