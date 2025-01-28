@@ -176,7 +176,6 @@ body {
 
 .footer > .container {
     display: flex;
-    flex-direction: column;
 }
 
 .header {
@@ -526,5 +525,9 @@ text-align: left;
 }
 
 .footer > .container {
+    display: flex;
+}
+
+.container > .logofooter {
     display: block;
 }
