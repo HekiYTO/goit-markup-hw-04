@@ -107,7 +107,7 @@ body {
 }
 
 .s-three-li-sl {
-    width: 40px;
+    min-width: 40px;
     height: 40px;
 }
 
