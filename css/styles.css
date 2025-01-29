@@ -101,6 +101,7 @@ body {
 }
 
 .s-three-ul-otc {
+    padding-top: 16px;
     display: flex;
     justify-content: center;
     gap: 24px;
